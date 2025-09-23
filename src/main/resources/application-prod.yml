@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: journaldb
+      auto-index-creation: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+
+weather:
+  api:
+    key: 40dd214b4bbe60c32b311dec6a4eaafc
+
+logging:
+  level:
+    root: INFO
+    org.mongodb.driver: WARN

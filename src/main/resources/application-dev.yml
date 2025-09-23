@@ -1,0 +1,23 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://vishal1212:FRRqDij_7yBWh2v@cluster0.of6ywnc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+logging:
+  level:
+    root: INFO
+    org.mongodb.driver: WARN
+
+weather:
+  api:
+    key: 40dd214b4bbe60c32b311dec6a4eaafc
+
+
+
