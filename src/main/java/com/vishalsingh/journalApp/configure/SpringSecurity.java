@@ -28,7 +28,7 @@ public class SpringSecurity {
                         .requestMatchers("/public/**","/admin/**","/chat/**").permitAll()
                         .requestMatchers("/journal/api/signup").permitAll()
                         .requestMatchers("/swagger-ui/**", "/v3/api-docs/**").permitAll()
-                        .requestMatchers("/journal/**", "/user/**").authenticated()
+                        .requestMatchers( "/user/**").authenticated()
                         .requestMatchers("/admin/**").hasRole("ADMIN")
                         .anyRequest().authenticated())
                 .httpBasic(Customizer.withDefaults())
