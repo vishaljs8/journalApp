@@ -11,34 +11,29 @@ import org.springframework.security.config.annotation.web.configurers.AbstractHt
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+
 @Configuration
 @EnableWebSecurity
 public class SpringSecurity {
-
     @Autowired
     private UserDetailServiceIMP userDetailsService;
     @Autowired
     private Passwordconfig passwordconfig;
 
-
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-
         return http.authorizeHttpRequests(request -> request
-                        .requestMatchers("/public/**","/admin/**","/chat/**").permitAll()
-                        .requestMatchers("/journal/api/signup").permitAll()
-                        .requestMatchers("/swagger-ui/**", "/v3/api-docs/**").permitAll()
-                        .requestMatchers( "/user/**").authenticated()
-                        .requestMatchers("/admin/**").hasRole("ADMIN")
-                        .anyRequest().authenticated())
-                .httpBasic(Customizer.withDefaults())
-                .csrf(AbstractHttpConfigurer::disable)
-                .build();
+                .requestMatchers("/public/**", "/admin/**", "/chat/**").permitAll()
+                .requestMatchers("/journal/api/signup").permitAll()
+                .requestMatchers("/swagger-ui/**", "/v3/api-docs/**").permitAll()
+                //.requestMatchers().authenticated()
+                .requestMatchers("/admin/**").hasRole("ADMIN")
+                .anyRequest().authenticated()).httpBasic(Customizer.withDefaults())
+                .csrf(AbstractHttpConfigurer::disable).build();
     }
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(userDetailsService).passwordEncoder(passwordconfig.passwordEncoder());
     }
-
 }

@@ -14,7 +14,7 @@ public class ChatController {
     @Autowired
     private ChatService chatService;
     @GetMapping
-    public void infor(){
+    public String infor(){
         ChatResponce response = chatService.chatInfo("Narendra_Modi");//.getQuery().getPages().values().iterator().next();
         String extract = null;
         if (response.getQuery() != null && response.getQuery().getPages() != null && !response.getQuery().getPages().isEmpty()) {
@@ -24,7 +24,7 @@ public class ChatController {
         }
 
         System.out.println(extract);
-        //return extract;
+        return extract;
     }
 
 }
