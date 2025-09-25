@@ -18557,3 +18557,184 @@ Caused by: com.mongodb.MongoTimeoutException: Timed out while waiting for a serv
 2025-09-25 22:10:10 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 142 ms
 2025-09-25 22:10:37 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
 2025-09-25 22:10:37 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-25 23:07:16 INFO  c.v.journalApp.journalAppApplication - Starting journalAppApplication using Java 23 with PID 30253 (/Users/vishalsingh/Downloads/journalApp/target/classes started by vishalsingh in /Users/vishalsingh/Downloads/journalApp)
+2025-09-25 23:07:16 INFO  c.v.journalApp.journalAppApplication - The following 1 profile is active: "dev"
+2025-09-25 23:07:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-09-25 23:07:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 2 MongoDB repository interfaces.
+2025-09-25 23:07:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-25 23:07:17 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:07:17 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-25 23:07:17 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-25 23:07:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-25 23:07:17 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 694 ms
+2025-09-25 23:07:19 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-25 23:07:19 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-09-25 23:07:19 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:07:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-25 23:07:19 INFO  c.v.journalApp.journalAppApplication - Started journalAppApplication in 2.96 seconds (process running for 3.218)
+2025-09-25 23:07:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-25 23:07:26 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-25 23:07:26 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-25 23:07:27 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 157 ms
+2025-09-25 23:09:16 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-25 23:09:16 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-25 23:09:19 INFO  c.v.journalApp.journalAppApplication - Starting journalAppApplication using Java 23 with PID 30274 (/Users/vishalsingh/Downloads/journalApp/target/classes started by vishalsingh in /Users/vishalsingh/Downloads/journalApp)
+2025-09-25 23:09:19 INFO  c.v.journalApp.journalAppApplication - The following 1 profile is active: "dev"
+2025-09-25 23:09:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-09-25 23:09:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 MongoDB repository interfaces.
+2025-09-25 23:09:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-25 23:09:20 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:09:20 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-25 23:09:20 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-25 23:09:20 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-25 23:09:20 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 654 ms
+2025-09-25 23:09:23 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-25 23:09:23 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-09-25 23:09:23 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:09:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-25 23:09:23 INFO  c.v.journalApp.journalAppApplication - Started journalAppApplication in 3.985 seconds (process running for 4.221)
+2025-09-25 23:09:28 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-25 23:09:28 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-25 23:09:28 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-25 23:09:28 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 134 ms
+2025-09-25 23:11:01 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-25 23:11:01 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-25 23:14:58 INFO  c.v.journalApp.journalAppApplication - Starting journalAppApplication using Java 23 with PID 30330 (/Users/vishalsingh/Downloads/journalApp/target/classes started by vishalsingh in /Users/vishalsingh/Downloads/journalApp)
+2025-09-25 23:14:58 INFO  c.v.journalApp.journalAppApplication - The following 1 profile is active: "dev"
+2025-09-25 23:14:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-09-25 23:14:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 2 MongoDB repository interfaces.
+2025-09-25 23:14:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-25 23:14:59 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:14:59 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-25 23:14:59 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-25 23:14:59 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-25 23:14:59 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 721 ms
+2025-09-25 23:15:00 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-25 23:15:00 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-09-25 23:15:00 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:15:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-25 23:15:00 INFO  c.v.journalApp.journalAppApplication - Started journalAppApplication in 2.999 seconds (process running for 3.282)
+2025-09-25 23:15:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-25 23:15:06 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-25 23:15:06 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-25 23:15:06 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 138 ms
+2025-09-25 23:17:16 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:17:38 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:18:10 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:18:12 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:18:22 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-25 23:18:22 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-25 23:19:05 INFO  c.v.journalApp.journalAppApplication - Starting journalAppApplication using Java 23 with PID 30367 (/Users/vishalsingh/Downloads/journalApp/target/classes started by vishalsingh in /Users/vishalsingh/Downloads/journalApp)
+2025-09-25 23:19:05 INFO  c.v.journalApp.journalAppApplication - The following 1 profile is active: "dev"
+2025-09-25 23:19:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-09-25 23:19:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 MongoDB repository interfaces.
+2025-09-25 23:19:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-25 23:19:06 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:19:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-25 23:19:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-25 23:19:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-25 23:19:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 691 ms
+2025-09-25 23:19:08 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-25 23:19:08 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-09-25 23:19:08 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:19:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-25 23:19:08 INFO  c.v.journalApp.journalAppApplication - Started journalAppApplication in 2.979 seconds (process running for 3.191)
+2025-09-25 23:19:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-25 23:19:12 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-25 23:19:12 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-25 23:19:12 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 137 ms
+2025-09-25 23:20:02 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-25 23:20:02 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-25 23:20:04 INFO  c.v.journalApp.journalAppApplication - Starting journalAppApplication using Java 23 with PID 30382 (/Users/vishalsingh/Downloads/journalApp/target/classes started by vishalsingh in /Users/vishalsingh/Downloads/journalApp)
+2025-09-25 23:20:04 INFO  c.v.journalApp.journalAppApplication - The following 1 profile is active: "dev"
+2025-09-25 23:20:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-09-25 23:20:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 MongoDB repository interfaces.
+2025-09-25 23:20:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-25 23:20:05 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:20:05 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-25 23:20:05 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-25 23:20:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-25 23:20:05 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 644 ms
+2025-09-25 23:20:06 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-25 23:20:06 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-09-25 23:20:07 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:20:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-25 23:20:07 INFO  c.v.journalApp.journalAppApplication - Started journalAppApplication in 2.476 seconds (process running for 2.678)
+2025-09-25 23:20:11 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-25 23:20:11 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-25 23:20:11 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-25 23:21:15 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-25 23:21:15 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-25 23:21:17 INFO  c.v.journalApp.journalAppApplication - Starting journalAppApplication using Java 23 with PID 30403 (/Users/vishalsingh/Downloads/journalApp/target/classes started by vishalsingh in /Users/vishalsingh/Downloads/journalApp)
+2025-09-25 23:21:17 INFO  c.v.journalApp.journalAppApplication - The following 1 profile is active: "dev"
+2025-09-25 23:21:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-09-25 23:21:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 MongoDB repository interfaces.
+2025-09-25 23:21:18 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-25 23:21:18 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:21:18 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-25 23:21:18 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-25 23:21:18 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-25 23:21:18 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 643 ms
+2025-09-25 23:21:19 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-25 23:21:19 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-09-25 23:21:19 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:21:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-25 23:21:19 INFO  c.v.journalApp.journalAppApplication - Started journalAppApplication in 2.813 seconds (process running for 3.012)
+2025-09-25 23:21:23 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-25 23:21:23 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-25 23:21:23 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-25 23:21:23 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 132 ms
+2025-09-25 23:21:43 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:22:03 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:22:05 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:22:09 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:22:11 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:23:22 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:23:23 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:24:04 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-25 23:24:04 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-25 23:24:06 INFO  c.v.journalApp.journalAppApplication - Starting journalAppApplication using Java 23 with PID 30438 (/Users/vishalsingh/Downloads/journalApp/target/classes started by vishalsingh in /Users/vishalsingh/Downloads/journalApp)
+2025-09-25 23:24:06 INFO  c.v.journalApp.journalAppApplication - The following 1 profile is active: "dev"
+2025-09-25 23:24:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-09-25 23:24:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 MongoDB repository interfaces.
+2025-09-25 23:24:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-25 23:24:07 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:24:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-25 23:24:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-25 23:24:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-25 23:24:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 640 ms
+2025-09-25 23:24:09 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-25 23:24:09 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-09-25 23:24:09 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:24:09 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-25 23:24:09 INFO  c.v.journalApp.journalAppApplication - Started journalAppApplication in 2.951 seconds (process running for 3.151)
+2025-09-25 23:24:13 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-25 23:24:13 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-25 23:24:13 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-25 23:24:26 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 139 ms
+2025-09-25 23:24:43 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:25:18 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:25:22 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.vishalsingh.journalApp.controller.ChatController.infor(com.vishalsingh.journalApp.entity.ChatEntity)]
+2025-09-25 23:29:03 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-25 23:29:03 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-25 23:29:05 INFO  c.v.journalApp.journalAppApplication - Starting journalAppApplication using Java 23 with PID 30487 (/Users/vishalsingh/Downloads/journalApp/target/classes started by vishalsingh in /Users/vishalsingh/Downloads/journalApp)
+2025-09-25 23:29:05 INFO  c.v.journalApp.journalAppApplication - The following 1 profile is active: "dev"
+2025-09-25 23:29:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-09-25 23:29:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 MongoDB repository interfaces.
+2025-09-25 23:29:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-25 23:29:06 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:29:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-25 23:29:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-25 23:29:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-25 23:29:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 656 ms
+2025-09-25 23:29:08 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-25 23:29:08 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-09-25 23:29:08 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-25 23:29:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-25 23:29:08 INFO  c.v.journalApp.journalAppApplication - Started journalAppApplication in 3.428 seconds (process running for 3.642)
+2025-09-25 23:29:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-25 23:29:16 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-25 23:29:16 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-09-25 23:29:20 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 135 ms
+2025-09-25 23:30:16 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-25 23:30:16 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
